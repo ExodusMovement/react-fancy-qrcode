@@ -1,10 +1,9 @@
 {
-  "name": "react-fancy-qrcode",
+  "name": "@exodus/react-fancy-qrcode",
   "version": "1.0.4",
   "description": "Customizable QR code generated for React & React Native",
   "types": "dist/*.d.ts",
-  "main": "dist/web.js",
-  "react-native": "dist/native.js",
+  "main": "dist/native.js",
   "files": [
     "dist/*"
   ],
@@ -15,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jgillick/react-fancy-qrcode.git"
+    "url": "git+https://github.com/ExodusMovement/react-fancy-qrcode.git"
   },
   "keywords": [
     "qrcode",
@@ -25,9 +24,9 @@
   "author": "Jeremy Gillick",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jgillick/react-fancy-qrcode/issues"
+    "url": "https://github.com/ExodusMovement/react-fancy-qrcode/issues"
   },
-  "homepage": "https://github.com/jgillick/react-fancy-qrcode#readme",
+  "homepage": "https://github.com/ExodusMovement/react-fancy-qrcode#readme",
   "devDependencies": {
     "@types/qrcode": "^1.4.2",
     "@types/react": "^17.0.43",
