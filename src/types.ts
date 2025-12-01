@@ -68,6 +68,8 @@ export type QRCodeProps = {
    */
   positionColor?: string | ColorGradient;
 
+  positionRectColor?: string;
+
   /**
    * The radius of the positioning pattern squares.
    *

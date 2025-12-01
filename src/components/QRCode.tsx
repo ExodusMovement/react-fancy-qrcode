@@ -24,6 +24,7 @@ export default React.memo(
         colorGradientDirection = ["0%", "0%", "100%", "100%"],
 
         positionColor,
+        positionRectColor,
         positionRadius = 0,
         positionGradientDirection = ["0%", "0%", "100%", "100%"],
       },
@@ -148,6 +149,7 @@ export default React.memo(
               placement="top-left"
               cellSize={cellSize}
               positionColor={positionColor}
+              positionRectColor={positionRectColor}
               sideCount={sideCount}
               positionRadius={positionRadius}
               svgDom={svgDom}
@@ -156,6 +158,7 @@ export default React.memo(
               placement="top-right"
               cellSize={cellSize}
               positionColor={positionColor}
+              positionRectColor={positionRectColor}
               sideCount={sideCount}
               positionRadius={positionRadius}
               svgDom={svgDom}
@@ -164,6 +167,7 @@ export default React.memo(
               placement="bottom-left"
               cellSize={cellSize}
               positionColor={positionColor}
+              positionRectColor={positionRectColor}
               sideCount={sideCount}
               positionRadius={positionRadius}
               svgDom={svgDom}

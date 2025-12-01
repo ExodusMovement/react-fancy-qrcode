@@ -6,6 +6,7 @@ type PositionPatternProps = {
   cellSize: number;
   sideCount: number;
   positionColor: string;
+  positionRectColor?: string;
   positionRadius?: PositionRadius | PositionRadius[];
   svgDom: SVGObject;
 };
@@ -17,6 +18,7 @@ export default function PositionPattern({
   placement,
   cellSize,
   positionColor,
+  positionRectColor,
   sideCount,
   positionRadius,
   svgDom,
@@ -71,7 +73,7 @@ export default function PositionPattern({
         y={outerY + strokeCorrection}
         width={outerSize}
         height={outerSize}
-        stroke={positionColor}
+        stroke={positionRectColor || positionColor}
         strokeWidth={cellSize}
         rx={outerRx}
         ry={outerRy}
